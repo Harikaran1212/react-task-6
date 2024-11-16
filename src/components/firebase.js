@@ -5,14 +5,15 @@ import { addDoc, collection, getDocs, getFirestore, query, serverTimestamp, wher
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD1kTtpN-vAwkkMBTaCejxQOqAafM-EQuw",
-  authDomain: "todolist-25.firebaseapp.com",
-  databaseURL: "https://todolist-25-default-rtdb.firebaseio.com",
-  projectId: "todolist-25",
-  storageBucket: "todolist-25.appspot.com",
-  messagingSenderId: "431034328595",
-  appId: "1:431034328595:web:9b16c6fda1fc35458d01e6"
-};
+    apiKey: "AIzaSyDDtnnPaxyWezekO9YnFMiz9EEVvO_e9C4",
+    authDomain: "todolist-react-task6.firebaseapp.com",
+    databaseURL: "https://todolist-react-task6-default-rtdb.firebaseio.com",
+    projectId: "todolist-react-task6",
+    storageBucket: "todolist-react-task6.firebasestorage.app",
+    messagingSenderId: "973017563730",
+    appId: "1:973017563730:web:d49d67ffc8652dfdc2558b",
+    measurementId: "G-006PR6J7TL"
+  }
 
 const FirebaseApp = initializeApp(firebaseConfig);
 const Auth = getAuth(FirebaseApp);
