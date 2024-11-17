@@ -12,7 +12,6 @@ const firebaseConfig = {
     storageBucket: "todolist-react-task6.firebasestorage.app",
     messagingSenderId: "973017563730",
     appId: "1:973017563730:web:d49d67ffc8652dfdc2558b",
-    measurementId: "G-006PR6J7TL"
   }
 
 const FirebaseApp = initializeApp(firebaseConfig);
